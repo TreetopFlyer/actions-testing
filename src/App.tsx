@@ -8,6 +8,7 @@ const App = () =>
 
     return (
         <div>
+            <strong>v 1.0</strong>
             <p>{countGet}</p>
             <button onClick={handler}>++</button>
         </div>
