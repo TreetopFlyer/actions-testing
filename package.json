@@ -1,0 +1,15 @@
+{
+  "name": "actions-testing",
+  "scripts": {
+    "go": "esbuild ./src/App.tsx --minify --bundle --watch --sourcemap --outfile=./dist/out.js --loader:.png=dataurl",
+    "build": "esbuild ./src/App.tsx --minify --bundle --outfile=./dist/out.js --loader:.png=dataurl"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.25"
+  }
+}
